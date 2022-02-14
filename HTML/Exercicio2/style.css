@@ -1,0 +1,502 @@
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background:rgb(233, 233, 233);
+    box-shadow: inset 0 0 80px #000000;
+
+}
+header{
+
+    width: 100%;
+    height: 450px;
+    background:rgb(253, 253, 253);
+
+    
+}
+
+.titulo-capa{
+
+    font-size: 40px;
+    color: #001324;
+    margin-top: -15%;
+    margin-left: 5%;
+}
+nav{
+   
+    padding: 30px 0 0 0;
+    height: 100px;
+    background: #001324;
+    text-align: center;
+
+   
+}
+
+nav li{
+
+    display: inline;
+   
+}
+
+nav a{
+
+    text-transform: uppercase;
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+
+
+.banner{
+    
+   
+    width: 100%;
+    height: 450px;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+   
+}
+
+.banner:hover{
+
+    opacity: 0.4;
+}
+
+main{
+    
+    margin: 0 auto 0 auto;
+    width: 90%;
+    background: #f8f8f8;
+    
+
+
+}
+
+.titulossections{
+    color: #001324;
+    font-size: 40px;
+    padding: 5%;
+ 
+  
+}
+
+.titulossections:hover{
+
+    opacity: 0.4;
+    color: rgb(4, 4, 93);
+}
+.texto-paragrafos1{
+
+    font-size: 25px;
+    text-align: left;
+    margin-left: 40%;
+    line-height: 2em;
+  
+    
+    
+  
+}
+.texto-paragrafos2{
+
+    font-size: 25px;
+    text-align: left;
+    margin-right: 40%;
+    line-height: 2em;
+    padding-left: 5%;
+    
+  
+}
+
+.texto-paragrafos3{
+
+    font-size: 25px;
+    text-align: left;
+    margin-left: 40%;
+    line-height: 2em;
+}
+
+.texto-paragrafos4{
+
+    font-size: 25px;
+    text-align: left;
+    margin-right: 40%;
+    line-height: 2em;
+    padding-left: 5%;
+}
+.texto-paragrafos5{
+
+    font-size: 25px;
+    text-align: left;
+    margin-left: 40%;
+    line-height: 2em;
+}
+.texto-paragrafos6{
+
+    font-size: 25px;
+    text-align: left;
+    margin-right: 40%;
+    line-height: 2em;
+    padding-left: 5%;
+}
+
+
+.maos{
+
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+    margin-top: -15%;
+    
+
+}
+
+.maos:hover{
+
+    opacity: 0.4;
+}
+
+.deficiencia{
+
+    width: 30%;
+    height: 30%;;
+    margin-left: 63%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+    margin-top: -28%;
+}
+
+.deficiencia:hover{
+
+    opacity: 0.4;
+}
+
+.surdos{
+
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+    margin-top: -8%;
+}
+.surdos:hover{
+
+    opacity: 0.4;
+}
+
+.trans{
+
+    width: 30%;
+    height: 30%;
+    margin-left: 63%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+    margin-top: -20%;
+
+}
+.trans:hover{
+
+    opacity: 0.4;
+}
+
+.negros{
+
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+    margin-top: -8%;
+}
+
+.negros:hover{
+
+    opacity: 0.4;
+}
+
+.indios{
+
+    width: 30%;
+    height: 30%;
+    margin-left: 63%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+    margin-top: -32%;
+    float: left;
+}
+
+.indios:hover{
+
+    opacity: 0.4;
+}
+
+/*footer*/
+.rodape{
+
+    width: 100%;
+    height: 600px;
+    background: #001324;
+}
+
+.links-titulo{
+
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 5%;
+  
+
+}
+
+
+.links-titulo:hover{
+
+    opacity: 0.4;
+}
+ 
+
+.links-rodape{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 2em;
+    padding: 0 auto;
+   
+ 
+}
+
+.rodape-informativo{
+
+    
+    color: white;
+    font-size: 25px;
+    padding: 20px 20px 0 0;
+
+}
+
+
+ul li  a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.video{
+    margin-left: 35%;
+    float: left;
+  margin-top: -15%;
+ 
+}
+
+.siganos{
+
+    
+    width: 300px;
+    height:100px;
+    color: white;
+    font-size: 30px;
+    margin-left: 75%;
+    padding: 80px 20px 20px 20px;
+  
+  
+ 
+}
+
+.img-incones{
+
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.div-rodape{
+
+    width: 100%;
+    height: 50px;
+    background: black;
+    
+}
+
+.texto-rodape{
+    padding: 10px 0 0 0;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+/*CSS PÁGINA CONTATOS*/
+
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background:rgb(233, 233, 233);
+    box-shadow: inset 0 0 80px #000000;
+
+}
+header{
+
+    width: 100%;
+    height: 450px;
+    background:rgb(253, 253, 253);
+
+    
+}
+nav{
+   
+    padding: 30px 0 0 0;
+    height: 80px;
+    background: #001324;
+    text-align: center;
+
+   
+}
+nav ul{
+padding: 20px 20px 20px 20px;
+line-height: 2em;
+
+}
+nav li{
+
+    display: inline;
+   
+}
+
+nav a{
+
+    text-transform: uppercase;
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+
+
+.banner{
+    
+   
+    width: 100%;
+    height: 450px;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 10px #000000;
+   
+}
+
+.banner:hover{
+
+    opacity: 0.4;
+}
+
+main{
+    
+    margin: 0 auto 0 auto;
+    width: 90%;
+    background: #f8f8f8;
+    
+
+
+}
+
+.forms{
+
+    margin: 40px 0 ;
+}
+
+
+form{
+	margin: 40px 0;
+}
+
+form label , legend{    /*se colocarmos virgula (,) podemos atribuir as mesmas confs para outras tags ou elementos*/
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.inputformulario{
+display: block;
+margin: 0 0 20px;
+padding: 10px 25px;
+width: 50%;
+
+}
+
+.checkbox{
+
+	margin: 20px 0;
+}
+
+.enviar{
+
+	width: 40%;
+	padding: 15px 0;
+	background:slategray;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;  /*fazendo efeito de transição de cor do botão quando passar o mouse*/
+	cursor: pointer; /*mudando o cursor do mouse para a maozinha quando estiver em cima do botão*/
+}
+
+.enviar:hover {  /*fazendo o efeito de quando passar o mouse em cima do botão mudar a cor*/
+	
+	background:mediumseagreen;
+	transform: scale(1.2); /*propriedade para aumentar o tamanho qos elementos quando passar o mouse*/
+
+}
+
+table{
+
+	margin: 20px 0 40px;
+}
+
+thead{
+
+	background: #555555;
+	color: white;
+	font-weight: bold;
+
+}
+
+td , th{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+	
+}
+
+.maps{
+
+    margin-left: 60%;
+    margin-top: -35%;
+    float: left;
+}
+
