@@ -149,7 +149,7 @@ main{
 
 
 .maos{
-
+    border-radius: 100px;
     width: 30%;
     height: 30%;
     margin-left: 5%;
@@ -168,6 +168,7 @@ main{
 
 .deficiencia{
 
+    border-radius: 100px;
     width: 30%;
     height: 30%;;
     margin-left: 63%;
@@ -183,7 +184,7 @@ main{
 }
 
 .surdos{
-
+    border-radius: 100px;
     width: 30%;
     height: 30%;
     margin-left: 5%;
@@ -198,7 +199,7 @@ main{
 }
 
 .trans{
-
+    border-radius: 100px;
     width: 30%;
     height: 30%;
     margin-left: 63%;
@@ -214,7 +215,7 @@ main{
 }
 
 .negros{
-
+    border-radius: 100px;
     width: 30%;
     height: 30%;
     margin-left: 5%;
@@ -230,7 +231,7 @@ main{
 }
 
 .indios{
-
+    border-radius: 100px;
     width: 30%;
     height: 30%;
     margin-left: 63%;
@@ -382,7 +383,7 @@ nav li{
    
 }
 
-nav a{
+nav li ul a{
 
     text-transform: uppercase;
     color:white;
